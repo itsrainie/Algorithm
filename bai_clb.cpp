@@ -40,6 +40,8 @@ void prime_result(long long a, long long b, long long c, long long d) {
 }
 
 int main() {
+    freopen("CPRIMED.INP", "r", stdin);
+    freopen("CPRIMED.OUT", "w", stdout);
     long long a, b, c, d;
     cin >> a >> b >> c >> d;
     
